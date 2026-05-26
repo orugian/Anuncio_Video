@@ -50,7 +50,7 @@ Você envia uma URL via Telegram
 ## Arquitetura do código
 
 ```
-projeto-itamar/
+projeto/
 ├── .env.example              ← template de variáveis (nunca commitar .env real)
 ├── .gitignore
 ├── requirements.txt
