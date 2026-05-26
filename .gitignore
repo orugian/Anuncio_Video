@@ -1,0 +1,77 @@
+# ============================================
+# Madara Pipeline — Git Ignore
+# ============================================
+
+# ── Environment & Secrets ─────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ── Python Runtime ────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ── Virtual Environment ──────────────────────
+.venv/
+venv/
+ENV/
+env/
+.venv
+
+# ── IDE & Editor ─────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ── OS ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs & Debug ────────────────────────────
+*.log
+logs/
+*.log.*
+
+# ── Test & Debug Scripts ─────────────────────
+# These are development helpers — not part of the runtime
+debug_*.py
+diagnostic_*.py
+test_*.py
+poll_debug.py
+
+# ── Documentation (Generated) ───────────────
+# Docs generated during investigation/auditing
+docs/repository_audit.md
+docs/security_prepush_audit.md
+
+# ── Third-party / External Tools ────────────
+# The pipeline uses OpenGenerativeAI as an external tool
+# to bypass HiggsField platform subscriptions.
+# Clone it separately from: https://github.com/your-user/OpenGenerativeAI
+temp_gen_ai_2/
+
+# ── Nested Project Directories ───────────────
+# Separate git worktrees — not part of this repository
+projeto-itamar/

@@ -1,0 +1,15 @@
+[Unit]
+Description=Madara Telegram Bot Gateway
+After=network.target
+
+[Service]
+Type=simple
+User=claw
+WorkingDirectory=/home/claw/projects/projeto-itamar
+Environment=PYTHONPATH=/home/claw/projects/projeto-itamar
+ExecStart=/home/claw/projects/projeto-itamar/.venv/bin/python3 services/gateway/telegram_bot.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

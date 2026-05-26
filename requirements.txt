@@ -1,0 +1,9 @@
+scrapling[all]
+playwright
+supabase
+pydantic
+pydantic-settings
+python-dotenv
+python-telegram-bot
+httpx
+ffmpeg-python
