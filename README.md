@@ -1,5 +1,7 @@
 # Madara — Ad Video Pipeline
 
+<img width="1672" height="941" alt="Madara-Video-Agent" src="https://github.com/user-attachments/assets/128eb43e-61b2-4eda-9712-0e3644088e2a" />
+
 Pipeline de automação que transforma URLs de anúncios em vídeos publicitários gerados por IA, com entrega via Telegram.
 
 O usuário envia uma URL de produto → o sistema faz scraping → extrai dados semânticos → gera um roteiro → monta um comercial de 30 segundos em formato vertical (9:16).
