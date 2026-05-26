@@ -203,6 +203,11 @@ E refaz apenas:
 
 ---
 
+## Resultados
+
+<img width="1177" height="926" alt="print-ad-video" src="https://github.com/user-attachments/assets/08e038cc-b45a-49be-92b8-db71d5473980" />
+
+
 ## Segurança
 
 - O bot Telegram responde **exclusivamente** ao `AUTHORIZED_USER_ID` configurado
