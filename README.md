@@ -159,7 +159,7 @@ sudo systemctl start madara_bot
 
 ### OpenGenerativeAI
 
-Para绕过大语言模型视频生成平台的订阅限制（如HiggsField）， o pipeline pode se integrar ao [OpenGenerativeAI](https://github.com/your-user/OpenGenerativeAI) — uma ferramenta de código aberto que oferece funcionalidades equivalentes sem dependence de assinaturas proprietárias.
+Para contornar as limitações de assinatura da plataforma de geração de vídeo（como HiggsField）， o pipeline pode se integrar ao [OpenGenerativeAI](https://github.com/your-user/OpenGenerativeAI) — uma ferramenta de código aberto que oferece funcionalidades equivalentes sem dependence de assinaturas proprietárias.
 
 Consulte o repositório do OpenGenerativeAI para instruções de configuração e uso.
 
